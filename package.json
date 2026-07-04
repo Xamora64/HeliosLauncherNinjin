@@ -1,11 +1,11 @@
 {
-  "name": "helioslauncher",
+  "name": "helioslauncherninjin",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "productName": "Helios Launcher Ninjin",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/) modified by Xamora",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "git@github.com:Xamora64/HeliosLauncherNinjin.git",
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issues"
   },
@@ -47,6 +47,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com:Xamora64/HeliosLauncherNinjin.git"
+  },
+  "lavamoat": {
+    "allowScripts": {
+      "electron": false,
+      "electron-builder>app-builder-lib>electron-builder-squirrel-windows>electron-winstaller": false
+    }
+  },
+  "allowScripts": {
+    "electron@39.2.7": true,
+    "electron-winstaller@5.4.0": true
   }
 }
